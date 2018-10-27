@@ -1,0 +1,10 @@
+version: '3'
+services:
+  test-from-github:
+    build: https://github.com/SimoSca/godocker-flow.git
+    image: simosca/godocker-flow
+  
+  test-local:
+    build: 
+      context: .
+    image: simosca/godocker-flow

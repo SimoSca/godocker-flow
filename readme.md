@@ -12,6 +12,14 @@ Anzitutto essendo a zero su `Go` ho per prima cosa fatto una prova, con descrizi
 - [go-docker](./note/go-docker/readme.md)
 
 
+CROSS COMPILE
+=============
+
+Per compilazioni multi piattaforma, tenere presente la seguente immagine:
+
+- [https://github.com/docker/golang-cross](https://github.com/docker/golang-cross)
+
+
 
 REFS
 ====
