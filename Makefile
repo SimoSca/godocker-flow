@@ -57,5 +57,10 @@ build:
 # 	cd ../storage; git tag -a -m 'v${VERSION}' v${VERSION} && git push origin v${VERSION}
 
 
+clean:
+	find ./go -type f ! -path './go/src/github.com/SimoSca/*.go' -exec rm {} \;
+	find ./go -type d -empty -exec rmdir {} \;
+	
+
 # .PNONY: all combined release fmt release-deps pull tag
-.PHONY: build
+.PHONY: build clean
